@@ -1,0 +1,16 @@
+:root {
+  --color-red: hsl(0deg 80% 50%);
+  --color-blue: hsl(270deg 75% 60%);
+  --color-green: hsl(138, 87%, 25%);
+  --color-main: green;
+}
+
+body {
+  background-color: var(--color-main);
+  /* background: url('./assets/bg.jpg') no-repeat -25% -50%, url('./assets/bg.jpg') no-repeat 125% 150%, #891515; */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
